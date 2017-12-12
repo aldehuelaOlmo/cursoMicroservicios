@@ -1,0 +1,5 @@
+package es.accenture.microserviciosping.dto;
+
+public class Persona {
+
+}

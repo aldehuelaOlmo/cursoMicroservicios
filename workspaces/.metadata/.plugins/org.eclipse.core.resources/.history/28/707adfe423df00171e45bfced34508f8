@@ -1,0 +1,14 @@
+package es.curso.jmsconsumidor;
+
+import org.springframework.jms.annotation.JmsListener;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MensjaesJmsListener {
+
+	//lo que aparece en destination es el nombre del queue que hemos creado en ActiveMQ.
+	@JmsListener(destination="mensajes")
+	public void procesarMensajes(String mensaje) {
+		System.out.println("Procesando el mensaje....: "+ mensaje);
+	}
+}

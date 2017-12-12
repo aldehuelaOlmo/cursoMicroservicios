@@ -1,0 +1,5 @@
+package es.curso.jmsconsumidor;
+
+public class MensjaesJmsListener {
+
+}

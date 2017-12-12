@@ -1,0 +1,29 @@
+package es.accenture.clientemicroserviciospring.controllers;
+
+import java.net.URI;
+import java.net.URISyntaxException;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestClientException;
+import org.springframework.web.client.RestTemplate;
+
+import es.accenture.clientemicroserviciospring.dto.Persona;
+
+@RestController
+@RequestMapping(path="/gestion")
+public class GestionRestController {
+
+	//Me creo una instancia y lo inyecto.
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	@RequestMapping(method=RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+	public void method() throws URISyntaxException {
+		
+		restTemplate.getForEntity(new URI(""), Persona.class);
+	}
+}

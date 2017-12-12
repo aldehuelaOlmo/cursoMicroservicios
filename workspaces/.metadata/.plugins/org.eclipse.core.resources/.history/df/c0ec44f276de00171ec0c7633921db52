@@ -1,0 +1,5 @@
+package es.accenture.clientemicroserviciospring;
+
+public class Configuration {
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="02_ClienteMicroServicioSpring"/>
+<aop-project name="03_Aplicacion-Stock"/>
+<aop-project name="01_MicroServicioSpring"/>
+</aop-reference-model>

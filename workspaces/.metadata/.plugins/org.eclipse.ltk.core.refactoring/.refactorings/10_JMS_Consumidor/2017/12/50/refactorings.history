@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MensajesController.java&apos; to &apos;11_JMS_Productor/src/main/java/es.curso.jmsproductor&apos;&#x0D;&#x0A;- Original project: &apos;10_JMS_Consumidor&apos;&#x0D;&#x0A;- Destination element: &apos;11_JMS_Productor/src/main/java/es.curso.jmsproductor&apos;&#x0D;&#x0A;- Original element: &apos;es.curso.jmsconsumidor.MensajesController.java&apos;" description="Copy compilation unit" destination="=11_JMS_Productor/src\/main\/java&lt;es.curso.jmsproductor" element1="/src\/main\/java&lt;es.curso.jmsconsumidor{MensajesController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1513073567695" units="1" version="1.0"/>
+</session>

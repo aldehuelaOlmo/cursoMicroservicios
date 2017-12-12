@@ -1,0 +1,5 @@
+package es.accenture.microserviciospring;
+
+public class PersonaRestController {
+
+}

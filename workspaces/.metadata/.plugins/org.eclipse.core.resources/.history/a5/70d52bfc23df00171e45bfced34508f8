@@ -1,0 +1,12 @@
+package es.curso.jmsconsumidor;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class LogicaNegocio {
+
+	
+	public void metodo(String mensaje) {
+		System.out.println("Procesando el mensaje....: "+ mensaje);
+	}
+}

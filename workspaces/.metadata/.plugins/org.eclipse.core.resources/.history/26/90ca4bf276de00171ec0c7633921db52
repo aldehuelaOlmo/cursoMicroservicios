@@ -1,0 +1,8 @@
+package es.accenture.clientemicroserviciospring;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Configuration {
+
+}

@@ -1,0 +1,32 @@
+MICROSERVICIOS: 
+
+MS1 --> Getión de Stock
+MS2 --> Gestión de cobro
+MS3 --> Gestión de envio
+MS4 --> Gestión de notificacion
+MS5 --> Orden de compra
+
+Stock(idProducto, nombre).
+Dev: Boolean
+
+Envio(dni,nombre,dirección, empresa)
+Dev: Boolean
+
+Cobro(dni,nombre,cantidad,metodo pago, cantidad,idProducto)
+Dev: Boolean
+
+
+Petición User de pedido hacia MS1 para validación del Stock y permite realizar compra. Dependiendo
+de lo que devuelva MS1 enviamos petición de cobro a MS2. Una vez hecho el cobro en MS2 realizamos 
+el envio con MS3. 
+
+
+
+
+GITHUB:
+victorherrerocazurro
+
+CLEFORMACIÓN: 
+www.cleformacion.com
+user: alumno427
+pass: 47Elc53

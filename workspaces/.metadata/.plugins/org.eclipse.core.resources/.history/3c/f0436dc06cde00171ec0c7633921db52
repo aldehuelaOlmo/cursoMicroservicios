@@ -1,0 +1,5 @@
+package es.accenture.dto;
+
+public class Persona {
+
+}
