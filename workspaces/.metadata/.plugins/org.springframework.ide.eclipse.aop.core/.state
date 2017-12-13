@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="06_MicroservicioConConfiguracionCentralizada"/>
 <aop-project name="02_ClienteMicroServicioSpring"/>
 <aop-project name="03_Aplicacion-Stock"/>
+<aop-project name="03_Aplicacion-Notificaciones"/>
+<aop-project name="10_JMS_Consumidor"/>
+<aop-project name="07_ClienteConfiguracionDistribuida_Bus"/>
 <aop-project name="01_MicroServicioSpring"/>
+<aop-project name="11_JMS_Productor"/>
+<aop-project name="07_ConfiguracionDistribuida_Bus"/>
+<aop-project name="06_ServidorConfiguracion"/>
 </aop-reference-model>
