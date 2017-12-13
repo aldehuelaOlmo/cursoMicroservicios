@@ -17,6 +17,7 @@ public class StockController {
 	@RequestMapping(path="/validacionCompra",method=RequestMethod.POST,
 			consumes=MediaType.APPLICATION_JSON_VALUE)
 	public Boolean validacionCompra(@RequestBody Stock stock) {
+		
 		//Flag para saber si puedo comprar o no
 		Boolean validated;
 		//Estudio la condición de compra
